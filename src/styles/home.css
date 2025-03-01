@@ -1,0 +1,19 @@
+.bookCard{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    text-align:  center;
+    padding: 20px;
+
+}
+.bookCard>img{
+    width: 200px;
+    height: 200px;
+    align-items: center;
+    
+}
+.homePage{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:2rem
+}

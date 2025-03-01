@@ -1,0 +1,21 @@
+.navbar{
+    display:  flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: linear-gradient(rgb(218, 214, 214) ,rgb(211, 178, 183));
+
+
+}
+.nav-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap:15px;
+    padding: 20px;
+
+}
+.nav-link{
+    text-decoration: none;
+    font-size: 18px;
+    
+}
